@@ -1,0 +1,13 @@
+A	Use nm to the program,showing that
+0000000000400624 T _Z7averagePdRd
+0000000000400652 T _Z7averageif
+
+It showed that the first average function the argument are Pointer double and Reference double. And the second function are integer and float.
+
+B	This program show that
+1 8
+4 8
+4 8
+8 8
+
+It show that sizeof char=1, integer=4, float=4, double=4 obviously. But why is the sizeof pointer of them =8? Because pointers store memory addresses, and memory addresses are integers, In the 64bit-computer the sizeof pointer is 8 byte(64/8).
